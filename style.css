@@ -4,3 +4,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.choose-btn{
+    background-color: rgb(231, 186, 214);
+    color: white;
+
+}
+
+.text {
+    color: white;
+}
