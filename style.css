@@ -7,8 +7,8 @@ body{
 }
 
 .choose-btn{
-    background-color: rgb(231, 186, 214);
-    color: white;
+    background-color: #fff;
+    color: black;
 
 }
 
@@ -16,3 +16,11 @@ body{
     color: white;
 }
 
+.tick-color{
+    color: white;
+    /* background-color: red; */
+}
+
+.tick-color span{
+    color: white;
+}
