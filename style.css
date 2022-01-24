@@ -1,26 +1,38 @@
 /* Link for stylesheet  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-body{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
 }
 
-.choose-btn{
-    background-color: #fff;
-    color: black;
-
+.choose-btn {
+  background-color: #fff;
+  color: black;
 }
 
 .text {
-    color: white;
+  color: white;
 }
 
-.tick-color{
-    color: white;
-    /* background-color: red; */
+.tick-color {
+  color: white;
+  /* background-color: red; */
 }
 
-.tick-color span{
-    color: white;
+.tick-color span {
+  color: white;
+}
+
+@media only screen and (max-width: 667px) {
+  .small-screen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-custom {
+    height: 300px;
+  }
 }
